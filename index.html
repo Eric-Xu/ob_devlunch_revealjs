@@ -70,7 +70,6 @@
 				</section>
 
         <section data-state="d3-collision-slide">
-          <h2>Collision Detection</h1>
           <div class="d3-slide__collision-chart"></div>
           <aside class="notes">
             Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
@@ -458,6 +457,10 @@ Reveal.addEventListener( 'customevent', function() {
     <script src="js/d3.min.js"></script>
     <script type="text/javascript">
       Reveal.addEventListener( "d3-collision-slide", function() {
+        var svg = document.getElementsByClassName("d3-slide__collision-chart")[0];  
+        if (svg.children.length)
+          return;
+
         var width = 720,
             height = 600;
         
