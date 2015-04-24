@@ -1,13 +1,9 @@
 <!doctype html>
 <html lang="en">
-
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
-
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<title>Dev Lunchbox - Reveal.js</title>
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -77,33 +73,35 @@
           <section>
 			  		<h2>Advantages</h2>
 			  		<ul>
-			  			<li>No order here</li>
-			  			<li>Or here</li>
-			  			<li>Or here</li>
-			  			<li>Or here</li>
+			  			<li>Power of modern web browsers.</li>
+			  			<li>More flexibility and control.</li>
+			  			<li>Optimized for touch devices.</li>
+			  			<li>Better slide organization with 2d layout.</li>
+			  			<li>Host slides on Github to see change history.</li>
+			  			<li>Syntax highlighting with code samples.</li>
 			  		</ul>
 			  	</section>
           <section>
-			  		<h2>Disadvantages</h2>
+			  		<h2>Limitations</h2>
 			  		<ul>
-			  			<li>No order here</li>
-			  			<li>Or here</li>
-			  			<li>Or here</li>
-			  			<li>Or here</li>
+			  			<li>Text overlays on top of graphics.</li>
+			  			<li>Dynamic actions on slides.</li>
 			  		</ul>
 			  	</section>
 				</section>
 
         <section>
           <h2>Agenda</h2>
-					<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+          <ul>
+            <li>Go over some key features of Reveal JS.</li>
+            <li>See how to get started and how to host slides on Github.</li>
+          </ul>
         </section>
 
 				<section>
 					<section>
 						<h2>Vertical Slides</h2>
 						<p>Slides can be nested inside of each other.</p>
-						<p>Use the <em>Space</em> key to navigate through all slides.</p>
 						<br>
 						<a href="#" class="navigate-down">
 							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
@@ -123,108 +121,36 @@
 					</section>
 				</section>
 
-        <section>
-          <div class="svg-slide__animate-svg-border" data-inline-svg="true">
-            <svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewbox="0 0 144 144" class="icon stroked icon-cube-virtual" preserveaspectratio="xMaxYMax meet"> 
-              <path fill="none" stroke="#666" stroke-width="2px" class="long" d="M 72,26.59 32,46.75 32,96 72,116.5 112,96 112,46.75 72,26.59 Z"></path> 
-              <path fill="none" stroke="#666" stroke-width="2px" class="short" d="m 72,67.28 0,49.22 m -40,-69.75 40,20.5 40,-20.5"></path>
-              <path fill="none" stroke="#666" stroke-width="2px" stroke-dasharray="1.1, 3" stroke-linecap="round" class="virtual" d="m 71.85,21.95 a 4.64,4.64 0 0 0 -1.94,0.5 l -40,20.16 a 4.64,4.64 0 0 0 -2.55,4.14 l 0,49.25 a 4.64,4.64 0 0 0 2.52,4.1 l 40,20.5 a 4.64,4.64 0 0 0 4.24,0 l 39.98,-20.5 a 4.64,4.64 0 0 0 2.5,-4.1 l 0,-49.25 a 4.64,4.64 0 0 0 -2.5,-4.14 L 74.09,22.45 a 4.64,4.64 0 0 0 -2.24,-0.5 z"></path>
-            </svg>
-          </div>
-          <aside class="notes">
-            SVG demo
-          </aside>
-        </section>
-
-        <section data-state="d3-collision-slide">
-          <div class="d3-slide__collision-chart"></div>
-          <aside class="notes">
-            Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-          </aside>
-        </section>
-        
-        <section>
-          <section>
-			  		<h2>Getting Started</h2>
-			  		<ol>
-			  			<li>Download or clone Reveal JS from Github.</li>
-              <li>Open the <strong>index.html</strong> page in a text editor.</li>
-              <li>Customize the content inside <strong>section</strong> elements.</li>
-			  		</ol>
-			  	</section>
-			  	<section>
-			  		<h2>For Non-Coders</h2>
-			  		<p>
-			  		  There's a fully-featured visual editor for creating presentations at <a href="http://slides.com" target="_blank">http://slides.com</a>.
-			  		</p>
-						<img width="900" data-src="img/slides_gallery.png" alt="slides gallery";>
-			  	</section>
-				</section>
-  
-				<section>
-					<h2>Hosting On Github Project Pages</h2>
-			  	<ol>
-			  		<li>Create a new github repository, or use an existing one.</li>
-            <li><strong>git checkout –orphan gh-pages</strong>.</li>
-            <li>Remove all files and subdirectories from new ‘gh-pages’ branch.</li>
-			  		<li>Import all Reveal JS files and subdirectories.</li>
-            <li>Commit, then <strong>git push -u origin gh-pages</strong>.</li>
-            <li>Presentation will be available at <a>https://{user_name}.github.io/{project_name}</a></li>
-			  	</ol>
-        </section>
-
-				<section>
-				<h2>Other HTML5 Presentation Frameworks</h2>
-			  	<ul>
-            <li><a href="http://bartaz.github.io/impress.js/" target="_blank">Impress.js</a> (infinite canvas; 3d space)</li>
-            <li><a href="http://markdalgleish.com/projects/bespoke.js/" target="_blank">Bespoke.js</a> (presentation micro framework)</li>
-            <li><a href="http://imakewebthings.com/deck.js/" target="_blank">Deck.js</a></li>
-			  	</ul>
-					<img height="400" data-src="img/impress_js.png" alt="impress js";>
-          </section>
-
-				<section style="text-align: left;">
-          <h1>Thanks!</h1>
-          <p>Questions?</p>
-        </section>
-
-        <!-- i'm here -->
-
-
-				<section>
-					<h2>Point of View</h2>
+				<section id="themes">
+					<h2>Color Themes</h2>
 					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
-					</p>
-					<p>
-						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
+						Reveal.js comes with a few themes built in: <br>
+						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
 					</p>
 				</section>
 
-				<section>
-					<h2>Touch Optimized</h2>
+				<section id="transitions">
+          <h2>Slide Transition Styles</h2>
 					<p>
-						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
+						You can select from different transitions, like: <br>
+						<a href="?transition=none#/transitions">None</a> -
+						<a href="?transition=fade#/transitions">Fade</a> -
+						<a href="?transition=slide#/transitions">Slide</a> -
+						<a href="?transition=convex#/transitions">Convex</a> -
+						<a href="?transition=concave#/transitions">Concave</a> -
+						<a href="?transition=zoom#/transitions">Zoom</a>
 					</p>
-				</section>
-
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
-
-						Write content using inline or external Markdown.
-						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-
-						```
-						<section data-markdown>
-						  ## Markdown support
-
-						  Write content using inline or external Markdown.
-						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
-				</section>
+        </section>
 
 				<section>
 					<section id="fragments">
@@ -250,36 +176,142 @@
 					</section>
 				</section>
 
-				<section id="transitions">
-					<h2>Transition Styles</h2>
+				<section data-markdown>
+					<script type="text/template">
+						## Markdown support
+
+						Write content using inline or external Markdown.
+						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+
+						```
+						<section data-markdown>
+						  ## Markdown support
+
+						  Write content using inline or external Markdown.
+						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+						</section>
+						```
+					</script>
+				</section>
+
+        <section>
+          <section>
+            <h2>Support for SVG Graphics</h2>
+            <div class="svg-slide__animate-svg-border" data-inline-svg="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="600" viewbox="0 0 144 144" class="icon stroked icon-cube-virtual" preserveaspectratio="xMaxYMax meet"> 
+                <path fill="none" stroke="#666" stroke-width="2px" class="long" d="M 72,26.59 32,46.75 32,96 72,116.5 112,96 112,46.75 72,26.59 Z"></path> 
+                <path fill="none" stroke="#666" stroke-width="2px" class="short" d="m 72,67.28 0,49.22 m -40,-69.75 40,20.5 40,-20.5"></path>
+                <path fill="none" stroke="#666" stroke-width="2px" stroke-dasharray="1.1, 3" stroke-linecap="round" class="virtual" d="m 71.85,21.95 a 4.64,4.64 0 0 0 -1.94,0.5 l -40,20.16 a 4.64,4.64 0 0 0 -2.55,4.14 l 0,49.25 a 4.64,4.64 0 0 0 2.52,4.1 l 40,20.5 a 4.64,4.64 0 0 0 4.24,0 l 39.98,-20.5 a 4.64,4.64 0 0 0 2.5,-4.1 l 0,-49.25 a 4.64,4.64 0 0 0 -2.5,-4.14 L 74.09,22.45 a 4.64,4.64 0 0 0 -2.24,-0.5 z"></path>
+              </svg>
+            </div>
+          </section>
+          <section data-state="d3-collision-slide">
+            <div class="d3-slide__collision-chart"></div>
+          </section>
+        </section>
+        
+				<section>
+					<h2>Much more</h2>
+					<ul>
+						<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
+						<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
+						<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
+						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
+					</ul>
+				</section>
+
+        <section>
+          <section>
+			  		<h2>Getting Started</h2>
+			  		<ol>
+			  			<li>Download or clone Reveal JS from Github.</li>
+              <li>Open the <strong>index.html</strong> page in a text editor.</li>
+              <li>Customize the content inside <strong>section</strong> elements.</li>
+			  		</ol>
+          </section>
+          <section>
+			  		<h2>Getting Started</h2>
+			  		<ol>
+			  			<li>Download or clone Reveal JS from Github.</li>
+              <li>Open the <strong>index.html</strong> page in a text editor.</li>
+              <li>Customize the content inside <strong>section</strong> elements.</li>
+            </ol>
+            <br>
+            <br>
+					  <pre><code data-trim contenteditable>
+<section>
+  <h2>Getting Started</h2>
+  <ol>
+    <li>Download or clone Reveal JS from Github.</li>
+    <li>Open the <strong>index.html</strong> page in a text editor.</li>
+    <li>Customize the content inside <strong>section</strong> elements.</li>
+  </ol>
+</section>
+            </code></pre>
+          </section>
+			  	<section>
+			  		<h2>For Non-Coders</h2>
+			  		<p>
+			  		  There's a fully-featured visual editor for creating presentations at <a href="http://slides.com" target="_blank">http://slides.com</a>.
+			  		</p>
+						<img width="900" data-src="img/slides_gallery.png" alt="slides gallery";>
+			  	</section>
+				</section>
+  
+				<section>
+					<h2>Hosting On Github Project Pages</h2>
+			  	<ol>
+			  		<li>Create a new github repository, or use an existing one.</li>
+            <li><strong>git checkout –orphan gh-pages</strong>.</li>
+            <li>Remove all files and subdirectories from new ‘gh-pages’ branch.</li>
+			  		<li>Import all Reveal JS files and subdirectories.</li>
+            <li>Commit, then <strong>git push -u origin gh-pages</strong>.</li>
+            <li>Presentation will be available at <a>https://{user_name}.github.io/{project_name}</a></li>
+			  	</ol>
+        </section>
+
+				<section>
+				<h3>Other HTML5 Presentation Frameworks</h3>
+			  	<ul>
+            <li><a href="http://bartaz.github.io/impress.js/" target="_blank">Impress.js</a> (infinite canvas; 3d space)</li>
+            <li><a href="http://markdalgleish.com/projects/bespoke.js/" target="_blank">Bespoke.js</a> (presentation micro framework)</li>
+            <li><a href="http://imakewebthings.com/deck.js/" target="_blank">Deck.js</a></li>
+			  	</ul>
+					<img height="400" data-src="img/impress_js.png" alt="impress js";>
+        </section>
+
+        <section>
+          <div class="svg-slide__animate-svg-border" data-inline-svg="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="400" viewbox="0 0 144 144" class="icon stroked icon-cube-virtual" preserveaspectratio="xMaxYMax meet"> 
+              <path fill="none" stroke="#666" stroke-width="2px" class="long" d="M 72,26.59 32,46.75 32,96 72,116.5 112,96 112,46.75 72,26.59 Z"></path> 
+              <path fill="none" stroke="#666" stroke-width="2px" class="short" d="m 72,67.28 0,49.22 m -40,-69.75 40,20.5 40,-20.5"></path>
+              <path fill="none" stroke="#666" stroke-width="2px" stroke-dasharray="1.1, 3" stroke-linecap="round" class="virtual" d="m 71.85,21.95 a 4.64,4.64 0 0 0 -1.94,0.5 l -40,20.16 a 4.64,4.64 0 0 0 -2.55,4.14 l 0,49.25 a 4.64,4.64 0 0 0 2.52,4.1 l 40,20.5 a 4.64,4.64 0 0 0 4.24,0 l 39.98,-20.5 a 4.64,4.64 0 0 0 2.5,-4.1 l 0,-49.25 a 4.64,4.64 0 0 0 -2.5,-4.14 L 74.09,22.45 a 4.64,4.64 0 0 0 -2.24,-0.5 z"></path>
+            </svg>
+          </div>
+          <h1>Thanks!</h1>
+          <p>Questions?</p>
+        </section>
+
+        <!-- i'm here -->
+
+
+				<section>
+					<h2>Point of View</h2>
 					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=slide#/transitions">Slide</a> -
-						<a href="?transition=convex#/transitions">Convex</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a>
+						Press <strong>ESC</strong> to enter the slide overview.
+					</p>
+					<p>
+						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
 					</p>
 				</section>
 
-				<section id="themes">
-					<h2>Themes</h2>
+				<section>
+					<h2>Touch Optimized</h2>
 					<p>
-						reveal.js comes with a few themes built in: <br>
-						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
+						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
 					</p>
 				</section>
+
 
 				<section>
 					<section data-background="#dddddd">
@@ -455,17 +487,6 @@ Reveal.addEventListener( 'customevent', function() {
 					<p>
 						Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
 					</p>
-				</section>
-
-				<section>
-					<h2>Much more</h2>
-					<ul>
-						<li>Right-to-left support</li>
-						<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
-					</ul>
 				</section>
 
 				<section style="text-align: left;">
